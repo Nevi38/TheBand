@@ -8,6 +8,10 @@
         display: block;
     }
 
+    #nav li:nth-child(1) {
+        display: inline-block;
+    }
+
     #header #search {
         display: none;
     }
