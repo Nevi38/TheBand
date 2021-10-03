@@ -112,7 +112,7 @@ html {
     color: white;
     line-height: 46px;
     padding: 0 24px;
-    display: inline-block;
+    display: block;
 }
 
 #nav > li:hover > a {
