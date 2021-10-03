@@ -28,6 +28,3 @@ for (var i = 0; i < menuItems.length; i++) {
         header.style.height = null;
     }
 }
-
-// this là chính nó =)))
-// không hiểu là do chưa dành nhiều thời gian cho nó =)) dống cua gái đó
