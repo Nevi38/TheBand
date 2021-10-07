@@ -22,3 +22,7 @@ modal.addEventListener('click', hiddenBuyTickets)
 modalContainer.addEventListener('click', function (event) {
     event.stopImmediatePropagation(modalContainer)
 })
+
+function automaticImage() {
+    const img = document.querySelectorAll("img");
+}

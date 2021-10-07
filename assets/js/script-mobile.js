@@ -25,6 +25,11 @@ for (var i = 0; i < menuItems.length; i++) {
     var menuItem = menuItems[i];
     
     menuItem.onclick = function () {
-        header.style.height = null;
+        var isParentMenu = this.nextElementSibling && menuItem.nextElementSibling.classList.contains('subnav');
+        if (isParentMenu) {
+            event.preventDefault();
+        } else {
+            header.style.height = null;
+        }
     }
 }
