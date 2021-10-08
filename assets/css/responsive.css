@@ -76,6 +76,7 @@
         overflow: scroll;
         padding-top: 40%;
         padding-bottom: 2%;
+        z-index: 1;
     }
 
     ::-webkit-scrollbar {
@@ -89,6 +90,7 @@
         overflow: scroll;
         padding-top: 40%;
         padding-bottom: 2%;
+        z-index: 1;
     }
 
     ::-webkit-scrollbar {
