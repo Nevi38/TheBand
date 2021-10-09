@@ -126,6 +126,7 @@ html {
 }
 
 #nav .subnav {
+    min-width: 160px;
     top: 100%;
     left: 0;
     display: none;
