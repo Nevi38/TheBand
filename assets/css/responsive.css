@@ -68,6 +68,10 @@
         font-size: 30px;
         padding: 9px;
     }
+
+    #about-band {
+        display: none;
+    }
 }
 
 /* Mobile rolate height <= 671 */
