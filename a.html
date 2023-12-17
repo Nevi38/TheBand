@@ -7,7 +7,7 @@
     </div>
     <div class="g_id_signin" data-type="standard"></div>
     <script>
-        function handleCredentialResponse(response) {
+        window.handleCredentialResponse = (response) => {
            // decodeJwtResponse() is a custom function defined by you
            // to decode the credential response.
            const responsePayload = decodeJwtResponse(response.credential);
